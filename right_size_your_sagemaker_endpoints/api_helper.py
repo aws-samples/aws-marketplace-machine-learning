@@ -225,7 +225,7 @@ def delete_infra(project_name, account_id, rest_api_id, models_list):
         print(f"Rest API with id {rest_api_id} deleted.")
         
         for model_name in models_list:
-            sm_client.delete_model(ModelName=model_name)
+            model_name.delete_model()
             print(f"Model {model_name} deleted.")
                 
         print("All resources removed.")
