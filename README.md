@@ -2,7 +2,9 @@
 
 This repository serves as samples for AWS Marketplace Machine Learning products
 
-This repository also privodes output/input examples of open resource products listed in AWS Marketplace
+This repository also provides output/input examples of open resource products listed in AWS Marketplace
+
+The folder `right_size_your_sagemaker_endpoints` contains sample script on finding the right inference instance type for your AWS Marktplace model, based on your serving requirements.
 
 ## Security
 
