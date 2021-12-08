@@ -34,6 +34,6 @@ COPY config.properties /home/model-server/config.properties
 
 WORKDIR /home/model-server
 ENV TEMP=/home/model-server/tmp
-ENTRYPOINT ["/usr/local/bin/dockerd-entrypoint.sh"]
+ENTRYPOINT ["/usr/local/bin/docker-entrypoint.sh"]
 CMD ["serve"]
 
