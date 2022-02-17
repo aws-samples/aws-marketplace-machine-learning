@@ -1,0 +1,18 @@
+[
+   {
+      "word":"Wolfgang",
+      "score":0.9991481900215149,
+      "entity":"I-PER",
+      "index":4,
+      "start":11,
+      "end":19
+   },
+   {
+      "word":"Berlin",
+      "score":0.9983668327331543,
+      "entity":"I-LOC",
+      "index":9,
+      "start":34,
+      "end":40
+   }
+]
