@@ -1,18 +1,23 @@
 [
-   {
-      "word":"Wolfgang",
-      "score":0.9991481900215149,
-      "entity":"I-PER",
-      "index":4,
-      "start":11,
-      "end":19
-   },
-   {
-      "word":"Berlin",
-      "score":0.9983668327331543,
-      "entity":"I-LOC",
-      "index":9,
-      "start":34,
-      "end":40
-   }
+  {
+    "entity_group": "PER",
+    "score": 0.9883191585540771,
+    "word": "clara",
+    "start": 11,
+    "end": 16
+  },
+  {
+    "entity_group": "LOC",
+    "score": 0.9952636957168579,
+    "word": "berkeley",
+    "start": 31,
+    "end": 39
+  },
+  {
+    "entity_group": "LOC",
+    "score": 0.9959632158279419,
+    "word": "california",
+    "start": 41,
+    "end": 51
+  }
 ]
